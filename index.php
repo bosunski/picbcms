@@ -12,6 +12,9 @@
     }
 
     $elyon = Elyon::getInstance();
+
+    var_dump($_GET);
+
     $elyon->initialize();
     ob_end_flush();
 ?>

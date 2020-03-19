@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for LIBRAta */
-define('DB', 'elyon');
+define('DB', 'pico');
 
 /** MySQL database username */
 define('UNAME', 'root');
 
 /** MySQL database password */
-define('DBPASS', 'gabriel10');
+define('DBPASS', '');
 
 /** MySQL hostname */
 define('DBHOST', 'localhost');
@@ -35,7 +35,7 @@ define('DB_COLLATE', '');
 
 define('PREFIX', 'el_');
 
-define('INSTALL_DIR', 'http://localhost/cms_copy');
+define('INSTALL_DIR', 'http://pico.test');
 /**#@+
  * Authentication Unique Keys and Salts.
  *
